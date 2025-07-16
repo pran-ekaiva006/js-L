@@ -33,3 +33,27 @@ const myfunction=function(){
     console.log("hello World")
 }
 console.log(typeof myobj)
+
+
+//+++++++++++++++++++++++++++++++++++++++++
+
+//Stack (primitive), Heap(Non-primitive)
+
+let myName="pranja kumar verma"
+
+let anotherName=myName
+ anotherName="Maragate"
+ console.log(myName)
+console.log(anotherName)
+
+let userOne={
+    email:"user@gmail.com",
+    upi:"user@ybl"
+
+}
+let userTwo=userOne
+
+userTwo.email="pran@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
