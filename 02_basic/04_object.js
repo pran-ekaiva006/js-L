@@ -6,7 +6,7 @@ tinderUser.id="1234"
 tinderUser.name="sammy"
 tinderUser.isLoggedIn=false
 
-// console.log(tinderUser);
+console.log(tinderUser);
 
 const regular={
     email:"emaple@gmail.com",
@@ -17,9 +17,9 @@ const regular={
         }
     }
 }
-// console.log(regular)
-// console.log(regular.fullname)
-// console.log(regular.fullname?.userfullname.firstname)
+console.log(regular)
+console.log(regular.fullname)
+console.log(regular.fullname?.userfullname.firstname)
 
 const obj1={
     1:"a",
@@ -31,11 +31,11 @@ const obj2={
     5:"e"
 }
 
-// const obj3=Object.assign({},obj1,obj2)
-// console.log(obj3)
+const obj3=Object.assign({},obj1,obj2)
+console.log(obj3)
 
-// const obj3={...obj1,...obj2}
-// console.log(obj3)
+const obj6={...obj1,...obj2}
+console.log(obj3)
 
 const users=[
     {
@@ -50,3 +50,26 @@ const users=[
 
 const j=users[1].id
 console.log(j)
+
+
+const course={
+    coursename:"js",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+const {courseInstructor}=course;
+console.log(courseInstructor)
+
+
+
+// {
+//     "name":"pranjal",
+//     "courseName":"js",
+//     "price":"free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
