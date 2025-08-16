@@ -1,6 +1,6 @@
 // singleton
 
-// obect literals
+// object literals
 
 const mySym=Symbol("Key1")
 
@@ -30,7 +30,7 @@ console.log(jsuser)
 
 
 jsuser.greeting=function(){
-    console.log("hello pranjal")
+    console.log("hello jsuser")
 }
 jsuser.greeting2=function(){
     console.log(`hello pranjal,${this.name}`)
