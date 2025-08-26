@@ -6,7 +6,7 @@ let index=0;
 // }
 
 //do while
-let score=11;
+let score=11 ;
 do{
 
    console.log(`score is ${score}`);
