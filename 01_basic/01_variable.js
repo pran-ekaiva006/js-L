@@ -8,6 +8,6 @@ let accountState;
 console.log(accountId);
 console.table([accountId,accountPassword,accountEmail,accountCity,accountState])
 /*
-presfer not to use var
+prefer not to use var
 because of issue in block scope and functional scope
 */
