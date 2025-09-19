@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranjal</title>
+</head>
+<body class="body" style="background-color: #414141; color: aliceblue;">
+    <h1>Welcome to my World</h1>
+    <button id="stop">Stop</button>
+     <button id="start">Start</button>
+</body>
+<script>
+    const sayDate=function(){
+       console.log("Hello World" ,Date.now())
+    }
+
+   const intervalID =setInterval(sayDate,1000)
+ //to stop the interval
+   document.querySelector('#stop').addEventListener
+('click',function(){
+    clearInterval(intervalID);
+    console.log("cleared")
+})
+//to start the interval again
+document.querySelector('#start').addEventListener
+('click',function(){
+   setInterval(sayDate,1000);
+    console.log("started")
+})
+</script>
+</html>
